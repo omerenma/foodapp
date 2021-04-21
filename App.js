@@ -14,10 +14,10 @@ export default function App() {
 const styles = StyleSheet.create({
   containers: {
     justifyContent: "center",
-    backgroundColor: "red",
+    backgroundColor: "orange",
   },
   text: {
     alignItems: "center",
-    color: "red",
+    color: "green",
   },
 });
