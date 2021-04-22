@@ -1,13 +1,6 @@
 import { StatusBar as ExpoStatusBar } from "expo-status-bar";
 import React from "react";
-import {
-  StyleSheet,
-  Text,
-  View,
-  SafeAreaView,
-  Platform,
-  StatusBar,
-} from "react-native";
+import { StyleSheet, View, Platform, StatusBar } from "react-native";
 import Header from "./src/components/Header";
 import Content from "./src/components/Content";
 
@@ -21,7 +14,7 @@ export default function App() {
         <Content />
       </View>
 
-      <ExpoStatusBar style="dark" />
+      <ExpoStatusBar style="auto" />
     </View>
   );
 }
